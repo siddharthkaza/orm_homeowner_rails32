@@ -34,7 +34,7 @@ class MainController < ApplicationController
       #see page 277 (about has_and_belongs_to_many method) in book
       #also to make this statement work you will need to uncomment the model code
       #with the has_an_belongs_to_many line and comment the ones using the ownership table
-      #(this is already done for you)
+      #(if you just cloned the project, then this is already done for you)
       
       Owner.create(:first_name=>"john", :last_name=>"doe")
     
